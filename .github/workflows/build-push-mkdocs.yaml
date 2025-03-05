@@ -32,6 +32,7 @@ jobs:
 
       - name: Build MkDocs
         run: |
+          cd markdown
           mkdocs build
 
       - name: Push the documentation in a branch
